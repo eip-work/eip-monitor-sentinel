@@ -30,11 +30,6 @@ spec:
       containers:
       - name: monitor-sentinel
         image: docker.liangzixin.top/library/monitor-sentinel:0.0.1
-        ports:
-        - containerPort: 9701
-        envFrom:
-        - configMapRef:
-            name: monitor-pinpoint-config
 
 ---
 apiVersion: v1
