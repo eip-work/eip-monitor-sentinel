@@ -1,12 +1,12 @@
 {
-  "name": "Prometheus监控套件（mysql/nginx/jvm）",
-  "id": "eip-monitor-prometheus",
+  "name": "熔断及限流 Sentinel",
+  "id": "eip-monitor-sentinel",
   "version": "0.1.0",
   "lastUpdate": "2019-07-04",
   "maintainer": "shaohq@foxmail.com",
-  "scripts": ["addon-jvm.js", "addon-mysql.js", "addon-nginx.js"],
-  "k8s": ["prometheus-k8s.yaml"],
-  "resources": ["resource/2949.json", "resource/4701.json", "resource/7362.json"],
+  "scripts": ["addon-sentinel.js"],
+  "k8s": ["k8s-sentinel.yaml"],
+  "resources": [],
   "isGlobal": false,
   "info": {
     "install": "",
