@@ -25,11 +25,9 @@ spec:
         k8s.eip.work/layer: monitor
         k8s.eip.work/name: monitor-sentinel
     spec:
-      imagePullSecrets:
-      - name: docker-liangzixin-top
       containers:
       - name: monitor-sentinel
-        image: docker.liangzixin.top/library/monitor-sentinel:0.0.1
+        image: eipwork/eip-monitor-sentinel:1.0.0
 
 ---
 apiVersion: v1
